@@ -1,7 +1,7 @@
 <!-- Unit 3 Project
 Requirements
 [  ] Two External Links
-[  ] Table (minimum 2 Columns by 3 Rows)
+[ x ] Table (minimum 2 Columns by 3 Rows)
 [  ] Three CSS Rules
 [  ] Three Images
 
@@ -15,15 +15,19 @@ Select ONE Additional Feature to Add
 
 <!DOCTYPE html>
 <html>
-<style>
-  body {
-    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewBox='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌟</text></svg>") 16 0, auto;
-  }
-</style>
 <head>
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    body {
+      cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewBox='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌟</text></svg>") 16 0, auto;
+    }
+    td, th, table {
+      border: 1px solid rgba(255, 238, 0, 0.726);
+    }
+    body{
+      background-color:rgb(73, 73, 255)
+    }
   </style>
 </head>
 
@@ -37,13 +41,17 @@ Select ONE Additional Feature to Add
     <li><a href="#Grilled Cheese">Grilled Cheese</a></li>
  
   
-    <li><a href="#Recipe 2">Recipe #2</a></li>
+    <li><a href="#Recipe 2">Alfredo</a></li>
+
+    <li><a href="#Recipe 3">Street Tacos</a></li>
+
   </ol>
   <h2 id="Grilled Cheese">Grilled Cheese</h2>
-  <ul>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuQcY7_aGdh7ucYcwT7ObGhKcR3O_AfsMDN-Ql7s_NDA&s=10" width="150" length="150"
+  <p><ul>
     <li>Time: 10 minutes</li>
     <li>Serves: 1</li>
-  </ul>
+  </ul> </p>
 
   <table>
     <thead>
@@ -82,10 +90,39 @@ Select ONE Additional Feature to Add
   <li>Cook the grilled cheese on both sides until golden brown.</li>
   <p><strong>Step 5:</strong></p>
   <li>Serve the grilled cheese hot and enjoy!</li>
- <h2 id="Recipe 2">Recipe #2</h2>
+ 
+  <h2 id="Recipe 2">Alfredo</h2>
   <ul>
-    <li>Time: </li>
-    <li>Serves: _</li>
+    <li>Time: 30-60 minutes </li>
+    <li>Serves: 4</li>
+  </ul>
+  <table>
+    <thead>
+      <tr>
+        <td>Ingredients</td>
+        <td>Quantity</td>
+        <td>Price</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Fettuccine noodles</td>
+        <td>Two boxes</td>
+        <td>$3.50</td>
+      </tr>
+      <tr>
+        <td>Alfredo sauce</td>
+        <td>One or two jars</td>
+        <td>$3.00-7.00</td>
+      </tr>
+      
+    </tbody>
+  </table>
+
+  <h2 id="Recipe 3">Street Tacos</h2>
+  <ul>
+    <li>Time: 30 minutes</li>
+    <li>Serves: 4</li>
   </ul>
   <table>
     <thead>
