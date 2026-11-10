@@ -7,10 +7,10 @@ Requirements
 
 Select ONE Additional Feature to Add  
 [ no ] Feature 1 - Include :hover Effect
-[ no ] Feature 2 - Change the Cursor
+[ yes ] Feature 2 - Change the Cursor
 [ no ] Feature 3 - Make a Background Color Semi-Transparent
 [ no ] Feature 4 - Include at Flip Card
-[ no ] Feature 5 - Include at least two Internal links
+[ yes ] Feature 5 - Include at least two Internal links
 -->
 
 <!DOCTYPE html>
@@ -19,14 +19,26 @@ Select ONE Additional Feature to Add
   <title>Project: Recipe book</title>
   <meta charset="utf-8">
   <style>
+    a{
+      color: darkgoldenrod;
+    }
+    img {
+      border: 2px solid darkgoldenrod;
+    }
     body {
       cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='40' height='48' viewBox='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🌟</text></svg>") 16 0, auto;
     }
     td, th, table {
-      border: 1px solid rgba(255, 238, 0, 0.726);
+      border: 1px solid darkgoldenrod;
     }
     body{
       background-color:rgb(73, 73, 255)
+    }
+    h1,h2,h3{
+      color:darkgoldenrod
+    }
+    .make-sure{
+      color:rgb(228, 10, 3)
     }
   </style>
 </head>
@@ -89,7 +101,7 @@ Select ONE Additional Feature to Add
   <p><strong>Step 4:</strong></p>
   <li>Cook the grilled cheese on both sides until golden brown.</li>
   <p><strong>Step 5:</strong></p>
-  <li>Serve the grilled cheese hot and enjoy!</li>
+  <li class="make-sure">Serve the grilled cheese hot and enjoy!</li>
  
   <h2 id="Recipe 2">Alfredo</h2>
   <ul>
@@ -115,10 +127,31 @@ Select ONE Additional Feature to Add
         <td>One or two jars</td>
         <td>$3.00-7.00</td>
       </tr>
-      
+      <tr>
+        <td>Chicken</td>
+        <td>One pack</td>
+        <td>$6.00-10.00</td>
+      </tr>
+      <tr>
+        <td>Parmesan Cheese</td>
+        <td>One Tub</td>
+        <td>$4.00</td>
+      </tr>
+      <tr>
+        <td>Seasonings</td>
+        <td>As needed</td>
+        <td>$10.00</td>
+      </tr>
     </tbody>
   </table>
-
+  <p><strong>Step 1:</strong></p>
+  <li>Bring a pot of water to boil then put in the noodles until soft</li>
+  <p><strong>Step 2:</strong></p>
+  <li>Clean chicken and soak in lemon juice, after season the chicken and put it on a pan to cook</li>
+  <p><strong>Step 3:</strong></p>
+  <li>After prepping your ingrediants, put the noodles in a pot and mix in alfredo sauce and cheese</li>
+  <p><strong>Step 4:</strong></p>
+  <li class="make-sure">Make sure the cheese melts then serve with the chicken and enjoy!</li>
   <h2 id="Recipe 3">Street Tacos</h2>
   <ul>
     <li>Time: 30 minutes</li>
@@ -133,13 +166,54 @@ Select ONE Additional Feature to Add
       </tr>
     </thead>
     <tbody>
+        <tr>
+        <td>Tortillas</td>
+        <td>One pack</td>
+        <td>$3.00</td>
+      </tr>
       <tr>
-        <td>Ingredient #1</td>
-        <td>Quantity #1</td>
+        <td>Ground beef</td>
+        <td>One pound</td>
+        <td>$5.00</td>
+      </tr>
+      <tr>
+        <td>Lettuce</td>
+        <td>One medium</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Tomatoes</td>
+        <td>Two medium</td>
+        <td>$2.00</td>
+      </tr>
+      <tr>
+        <td>Cheese</td>
+        <td>One pack</td>
+        <td>$5.00</td>
+      </tr>
+      <tr>
+        <td>Sour cream</td>
+        <td>One container</td>
+        <td>$3.00</td>
+      </tr>
+      <tr>
+        <td>Guacamole</td>
+        <td>One tub</td>
+        <td>$7.00</td>
       </tr>
     </tbody>
   </table>
-  <p><em>Source: <a href="?">Some recipes websites</a></em></p>
+  <p><strong>Step 1:</strong></p>
+  <li>Put a pan on the stove with oil coating the bottom</li>
+  <p><strong>Step 2:</strong></p>
+  While the oil heats up cut up your ingrediants and cook the ground beef
+  <p><strong>Step 3:</strong></p>
+  <li>When the oil is hot enough put a tortilla and cheese with a top on it</li>
+  <p><strong>Step 4:</strong></p>
+  <li>When the cheese melts add the rest of your ingrediants and fold the tortilla over</li>
+  <p><strong>Step 5:</strong></p>
+  <li class="make-sure">When both sides are cooked and golden brown serve and enjoy!</li>
+  <p><em>Source: <a href="https://www.gordonramsay.com/gr/recipes/">Some recipes websites</a></em></p>
 
 </body>
 
